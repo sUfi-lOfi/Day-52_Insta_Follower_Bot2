@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "day-52-insta-follower-bot"
+version = "0.1.0"
+description = ""
+authors = ["ahmad-hassan <skytheispro94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.34.2"
+dotenv = "^0.9.9"
+bs4 = "^0.0.2"
+lxml = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
